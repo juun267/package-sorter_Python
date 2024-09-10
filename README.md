@@ -1,6 +1,6 @@
 # Package Sorter
 
-This repository contains a Go solution for sorting packages based on their dimensions and mass. The function determines where each package should be dispatched: STANDARD, SPECIAL, or REJECTED.
+This repository contains a Python solution for sorting packages based on their dimensions and mass. The function determines where each package should be dispatched: STANDARD, SPECIAL, or REJECTED.
 
 ## Functionality
 
@@ -17,7 +17,7 @@ The function `sort(width, height, length, mass)` classifies packages according t
 
 ### Implementation
 
-The Go function to sort the packages is implemented in `main.go`.
+The Python function to sort the packages is implemented in `main.py`.
 
 ### How to Run
 
@@ -29,8 +29,8 @@ The Go function to sort the packages is implemented in `main.go`.
    cd package-sorter
    
 4. **Run the Code**:
-   Ensure you have Go installed. Then run:
-   go run main.go
+   Ensure you have Python installed. Then run:
+   python main.py
    
 6. **View Output**:
    The test cases will output the stack classification for each package.
